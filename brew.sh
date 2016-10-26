@@ -174,6 +174,8 @@ brew cask install --appdir="/Applications" neteasemusic
 brew cask install --appdir="/Applications" mplayerx
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" qq
+brew cask install --appdir="/Applications" spectacle
+
 
 
 # Install Docker, which requires virtualbox
