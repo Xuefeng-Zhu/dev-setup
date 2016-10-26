@@ -167,6 +167,15 @@ brew cask install --appdir="/Applications" evernote
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 
+# Customize install package
+brew cask install --appdir="/Applications" robomongo
+brew cask install --appdir="/Applications" 1clipboard
+brew cask install --appdir="/Applications" neteasemusic
+brew cask install --appdir="/Applications" mplayerx
+brew cask install --appdir="/Applications" dash
+brew cask install --appdir="/Applications" qq
+
+
 # Install Docker, which requires virtualbox
 # brew install docker
 # brew install boot2docker
