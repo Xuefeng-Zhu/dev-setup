@@ -177,7 +177,7 @@ brew cask install --appdir="/Applications" mplayerx
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" qq
 brew cask install --appdir="/Applications" spectacle
-
+brew cask install --appdir="/Applications" kap
 
 
 # Install Docker, which requires virtualbox
