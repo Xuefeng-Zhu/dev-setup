@@ -178,6 +178,7 @@ brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" qq
 brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" kap
+brew cask install --appdir="/Applications" alfred
 
 
 # Install Docker, which requires virtualbox
