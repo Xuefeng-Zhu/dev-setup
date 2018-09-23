@@ -137,6 +137,7 @@ brew link libxslt --force
 # heroku update
 
 brew install nvm
+brew install autojump
 
 # Core casks
 brew cask install --appdir="/Applications" alfred

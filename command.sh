@@ -4,6 +4,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
 echo '. "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc
 
+echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh' >> ~/.zshrc
+
 # clone
 git clone https://github.com/powerline/fonts.git --depth=1
 # install
