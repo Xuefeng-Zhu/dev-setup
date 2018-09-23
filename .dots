@@ -63,6 +63,14 @@ function runDots() {
             echo ""
             ./pydata.sh
         fi
+        if [ $ARG == "cmd" ] || [ $ARG == "all" ]; then
+            # Run the cmd.sh Script
+            echo "------------------------------"
+            echo "Setting up command line tool."
+            echo "------------------------------"
+            echo ""
+            ./command.sh
+        fi
         if [ $ARG == "aws" ]; then
             # Run the aws.sh Script
             echo "------------------------------"

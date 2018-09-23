@@ -133,15 +133,13 @@ brew link libxml2 --force
 brew link libxslt --force
 
 # Install Heroku
-brew install heroku-toolbelt
-heroku update
+# brew install heroku-toolbelt
+# heroku update
 
-# Install Cask
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
+brew install nvm
 
 # Core casks
-# brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
@@ -178,7 +176,7 @@ brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" qq
 brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" kap
-brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" docker
 
 
 # Install Docker, which requires virtualbox
