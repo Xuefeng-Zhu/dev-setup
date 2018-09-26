@@ -14,3 +14,6 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# install vim config
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
